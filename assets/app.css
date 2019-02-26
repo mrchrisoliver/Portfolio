@@ -1,0 +1,154 @@
+html, body {
+    width:100%;
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0;
+}
+.header{
+    padding: 10em 0;
+    color: #FFF;
+    background-color: #0EAD69;
+    background-image: url("img/bg-pattern.png");
+}
+.header h1
+{
+    color: #FFF;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+span.lineone{
+    display: block;
+    font-size: 5rem;
+    line-height: 6rem;
+}
+span.linetwo{
+    font-size: 9.2rem;
+    font-weight: 900;
+    display: block;
+    line-height: 6.2rem;
+}
+span.linethree{
+    font-weight: 600;
+    font-size: 3.2rem;
+    display: block;
+    line-height: 5.2rem;
+}
+span.linefour{
+    font-size: 4.5rem;
+    display: block;
+    line-height: 2.8rem;
+}
+.about{
+    font-family: 'Montserrat', sans-serif;
+    padding: 4em 0;
+}
+.about p{
+    margin: 0;
+    padding: 2em 0;
+}
+.card:hover{
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    transition-duration: 0.3s;
+}
+.footer{
+    padding: 4em 0 0 0;
+    color: #FFF;
+    background: #0cab67;
+}
+.row.social{
+    padding:0 0 4em 0;
+}
+.row.social a{
+    color:rgba(255, 255, 255, 0.7);
+}
+.row.social a:hover{
+    color:#FFF;
+}
+@media (max-width:991.98px) {
+    span.lineone{
+        display: block;
+        font-size: 3rem;
+        line-height: 2.8rem;
+    }
+    span.linetwo{
+        font-size: 5.4rem;
+        font-weight: 900;
+        display: block;
+        line-height: 5rem;
+    }
+    span.linethree{
+        font-weight: 600;
+        font-size: 1.95rem;
+        display: block;
+        line-height:2.2rem;
+    }
+    span.linefour{
+        font-size: 2.7rem;
+        display: block;
+        line-height: 2.8rem;
+    }
+}
+@media (max-width:991.98px) {
+    span.lineone{
+        display: block;
+        font-size: 3rem;
+        line-height: 2.8rem;
+    }
+    span.linetwo{
+        font-size: 5.4rem;
+        font-weight: 900;
+        display: block;
+        line-height: 5rem;
+    }
+    span.linethree{
+        font-weight: 600;
+        font-size: 1.95rem;
+        display: block;
+        line-height:2.2rem;
+    }
+    span.linefour{
+        font-size: 2.7rem;
+        display: block;
+        line-height: 2.8rem;
+    }
+}
+@media (max-width:575.98px){
+    .header{
+        padding: 5em 0;
+    }
+    span.lineone{
+        display: block;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    span.linetwo{
+        font-size: 3.7rem;
+        font-weight: 900;
+        display: block;
+        line-height: 3.8rem;
+    }
+    span.linethree{
+        font-weight: 600;
+        font-size: 1.3rem;
+        display: block;
+        line-height: 1.6rem;
+    }
+    span.linefour{
+        font-size: 1.8rem;
+        display: block;
+        line-height: 2.1rem;
+    }
+}

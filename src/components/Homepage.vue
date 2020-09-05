@@ -16,9 +16,9 @@
             
           </div>
           <div class="justify-end">
-            <i class="fab fa-github-square text-xl"></i>
-            <i class="fab fa-linkedin text-xl mx-2"></i>
-            <i class="fab fa-twitter-square text-xl"></i>
+            <a class="text-gray-700 hover:text-gray-900" target="_blank" href="https://github.com/mrchrisoliver"><i class="fab fa-github-square text-xl"></i></a>
+            <a class="text-gray-700 hover:text-gray-900" target="_blank" href="https://www.linkedin.com/in/mrchrisoliver/"><i class="fab fa-linkedin text-xl mx-2"></i></a>
+            <a class="text-gray-700 hover:text-gray-900" target="_blank" href="https://twitter.com/mrchrxs"><i class="fab fa-twitter-square text-xl"></i></a>
           </div>
         </div>
         <div>

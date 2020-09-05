@@ -19,8 +19,4 @@ pnpm-debug.log*
 *.ntvs*
 *.njsproj
 *.sln
-<<<<<<< HEAD
 *.sw?
-=======
-*.sw?
->>>>>>> 651232e94f56e8ce1dcf1a710c958dc05e73862e
